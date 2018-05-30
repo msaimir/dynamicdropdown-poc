@@ -10,6 +10,9 @@
 [dynamicvaluelistpoc:contentdocument] > dynamicvaluelistpoc:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[dynamicvaluelistpoc:documenttype] > hippo:compound, hippostd:relaxed
+  orderable
+
 [dynamicvaluelistpoc:newsdocument] > dynamicvaluelistpoc:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="valuelists">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6dcda8b3-6816-4eba-8b4d-ffa00a0bfa44</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-untranslated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:node sv:name="newstype">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a8dad562-61f7-4da8-bd5c-23517ec19a24</sv:value>
+    </sv:property>
+    <sv:node sv:name="newstype">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>selection:valuelist</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f9ee132f-6532-47e6-a34f-41749e96f27d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>01e532a0-8884-4eba-818c-50cbb7ef5364</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>inherited - from query</sv:value>
+      </sv:property>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>actuality</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Actuality</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>politics</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Politics</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>sport</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Sport</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="simpledocumenttype">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d3fa0a30-76a2-4680-9584-39a28567ff37</sv:value>
+    </sv:property>
+    <sv:node sv:name="simpledocumenttype">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>selection:valuelist</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c258e0f2-1728-4ec1-bf7d-9f8fa86e844e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>8239ea8b-3381-4be2-a97e-422d9b10b262</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>inherited - from query</sv:value>
+      </sv:property>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>type1</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Type 1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>type2</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Type 2</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
