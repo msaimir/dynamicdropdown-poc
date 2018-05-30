@@ -1,17 +1,574 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dda61e3f-d51e-42c8-bb39-307e4b6f5f1a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bootstrap/content/target/" />
+    <ignored path="$PROJECT_DIR$/bootstrap/webfiles/target/" />
+    <ignored path="$PROJECT_DIR$/bootstrap/configuration/target/" />
+    <ignored path="$PROJECT_DIR$/cms/target/" />
+    <ignored path="$PROJECT_DIR$/site/target/" />
+    <ignored path="$PROJECT_DIR$/essentials/target/" />
+    <ignored path="$PROJECT_DIR$/bootstrap/target/" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular/angular.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-animate/angular-animate.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-aria/angular-aria.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-bootstrap/ui-bootstrap-tpls.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-chosen-localytics/chosen.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-sanitize/angular-sanitize.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-ui-router/release/angular-ui-router.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/angular-ui-tree/dist/angular-ui-tree.min.css" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/chosen/chosen.jquery.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/google-code-prettify/src/prettify.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/css/main.css" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/css/main.css.map" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/css/main.min.css" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/fonts/glyphicons-halflings-regular.eot" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/fonts/glyphicons-halflings-regular.svg" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/fonts/glyphicons-halflings-regular.ttf" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/fonts/glyphicons-halflings-regular.woff" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/fonts/glyphicons-halflings-regular.woff2" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/images/chosen-sprite.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/images/chosen-sprite@2x.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/images/hippo-icon-sprite.svg" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/js/main.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/js/main.js.map" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/hippo-theme/dist/js/main.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/components/jquery/dist/jquery.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-cms-document-type-deep-link.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-draft-warning.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-feature-footer.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-folder-picker.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-help.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-installed-feature.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-installed-tool.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-messages.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-notifier.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-plugin.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-simple-install-plugin.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/directives/essentials-template-settings.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/css/highlight.default.css" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/css/screen.css" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/images/hippo-logo.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/images/pet_store_api.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/images/throbber.gif" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/images/wordnik_api.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/shred/content.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/backbone-min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/handlebars-1.0.0.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/highlight.7.3.pack.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/jquery-1.8.0.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/jquery.ba-bbq.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/jquery.slideto.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/jquery.wiggle.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/shred.bundle.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/swagger.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/lib/underscore-min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/index.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/swagger-ui.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/docs/rest-api/swagger-ui.min.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/bean-writer.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/blog.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/bundle.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/content-blocks.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/documents-wizard.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/events.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/faq.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/gallery-manager.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/googlemaps.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/images.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/list.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/menu.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/missing-icon.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/news.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/polls.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/related-documents.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/rest-services.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/robotstxt.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/search.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/selections.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/seo.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/simple-content.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/sitemap.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/tagging.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/taxonomy.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/icons/videos.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/banner01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/banner02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/banner03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/banner04.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/blog01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/blog02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/blog03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/blog04.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/contentblocks01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/documentwizard01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/documentwizard02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/events01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/events02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/events03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/faq01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/faq02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/faq03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/faq04.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/genericlist01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/googlemaps01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/image01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/image02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/menu01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/news01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/news02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/news03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/news04.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/poll01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/poll02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/poll03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/relateddocuments01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/relateddocuments02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/robots01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/robots02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/search01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/search02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/selections01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/selections02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/selections03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/seo01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/simplecontent01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/simplecontent02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/simplecontent03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/tagging01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/tagging02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/taxonomy01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/taxonomy02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/taxonomy03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/video01.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/video02.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/screenshots/video03.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/favicon.ico" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/images/hippo-logo.png" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/lib/angular-ui-tree.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/app.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/controllers.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/directives.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/Essentials.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/loader.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/js/routes.js" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/pages/build.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/pages/installed-features.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/pages/introduction.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/pages/library.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/pages/tools.html" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/errors/404.jsp" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/errors/500.jsp" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/filters/NoCacheFilter.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/InstallState.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/InstallStateMachine.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/Plugin.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/PluginException.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/PluginParameterServiceFactory.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/PluginStore$1.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/plugin/PluginStore.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/project/ProjectUtils.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/client/RestClient.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/config/RestServletListener.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/PropertyRestful$1.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/PropertyRestful$PropertyType.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/PropertyRestful.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/RestList.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/StatusRestful.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/SystemInfo.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/model/TranslationRestful.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/picker/JcrBrowserResource.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/picker/JcrNode.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/picker/JcrProperty.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/picker/JcrQuery.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/DocumentResource.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/JcrResource.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/NodeResource.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/PluginResource.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/rest/ProjectResource.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/servlet/DynamicRestPointsApplication.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/servlet/EndPointList.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/servlet/EndpointsRestApplication.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/org/onehippo/cms7/essentials/servlet/RestServlet.class" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/applicationContext.xml" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/index.jsp" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/jackson.xml" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/classes/plugin_descriptor.json" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/jsp/errors/404.jsp" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/jsp/errors/500.jsp" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/jsp/index.jsp" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0/WEB-INF/web.xml" />
+    <ignored path="essentials/overlays/org.onehippo.cms7.hippo-essentials-dashboard-2.2.0.info" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/artifacts/dynamicvaluelist_poc_cms_war.xml" />
+    <ignored path=".idea/artifacts/dynamicvaluelist_poc_cms_war_exploded.xml" />
+    <ignored path=".idea/artifacts/dynamicvaluelist_poc_essentials_war.xml" />
+    <ignored path=".idea/artifacts/dynamicvaluelist_poc_essentials_war_exploded.xml" />
+    <ignored path=".idea/artifacts/dynamicvaluelist_poc_site_war.xml" />
+    <ignored path=".idea/artifacts/dynamicvaluelist_poc_site_war_exploded.xml" />
+    <ignored path=".idea/dictionaries/smuco.xml" />
+    <ignored path=".idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__cglib_cglib_nodep_2_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__com_adobe_xmp_xmpcore_5_1_2.xml" />
+    <ignored path=".idea/libraries/Maven__com_drewnoakes_metadata_extractor_2_6_2.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_1_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_4_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_0_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_4_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_0_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_4_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jsonSchema_2_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_8_16.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__com_h2database_h2_1_3_175.xml" />
+    <ignored path=".idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_5_2.xml" />
+    <ignored path=".idea/libraries/Maven__com_wordnik_swagger_annotations_2_10_1_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_wordnik_swagger_core_2_10_1_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_wordnik_swagger_jaxrs_2_10_1_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+    <ignored path=".idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+    <ignored path=".idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
+    <ignored path=".idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__commons_configuration_commons_configuration_1_7.xml" />
+    <ignored path=".idea/libraries/Maven__commons_dbcp_commons_dbcp_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
+    <ignored path=".idea/libraries/Maven__commons_io_commons_io_1_4.xml" />
+    <ignored path=".idea/libraries/Maven__commons_io_commons_io_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__commons_jexl_commons_jexl_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+    <ignored path=".idea/libraries/Maven__concurrent_concurrent_1_3_4.xml" />
+    <ignored path=".idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+    <ignored path=".idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
+    <ignored path=".idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+    <ignored path=".idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+    <ignored path=".idea/libraries/Maven__javax_jcr_jcr_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
+    <ignored path=".idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" />
+    <ignored path=".idea/libraries/Maven__joda_time_joda_time_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__junit_junit_4_10.xml" />
+    <ignored path=".idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+    <ignored path=".idea/libraries/Maven__net_sf_ehcache_ehcache_2_9_0.xml" />
+    <ignored path=".idea/libraries/Maven__net_sf_ehcache_ehcache_web_2_0_4.xml" />
+    <ignored path=".idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_4.xml" />
+    <ignored path=".idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__net_sourceforge_htmlcleaner_htmlcleaner_2_12.xml" />
+    <ignored path=".idea/libraries/Maven__net_sourceforge_htmlcleaner_htmlcleaner_2_16.xml" />
+    <ignored path=".idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_commons_commons_proxy_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_commons_commons_scxml2_2_0_M1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_cxf_cxf_core_3_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_extension_providers_3_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_security_cors_3_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_7_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_geronimo_specs_geronimo_stax_api_1_0_spec_1_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_geronimo_specs_geronimo_stax_api_1_2_spec_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_api_2_10_1_h12.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_core_2_10_1_h12.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_data_2_10_1_h12.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_jcr2spi_2_10_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_jcr_commons_2_10_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_jcr_rmi_2_10_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_spi2jcr_2_10_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_spi_2_10_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_jackrabbit_spi_commons_2_10_1_h12.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_jackrabbit_vault_org_apache_jackrabbit_vault_3_1_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_james_apache_mime4j_0_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_lucene_lucene_core_3_6_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_maven_maven_model_3_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_pdfbox_fontbox_1_8_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_pdfbox_jempbox_1_8_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_pdfbox_pdfbox_1_8_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_poi_poi_3_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_poi_poi_ooxml_3_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_sanselan_sanselan_0_97_incubator.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_tika_tika_core_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_tika_tika_parsers_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_wicket_wicket_core_6_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_wicket_wicket_datetime_6_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_wicket_wicket_extensions_6_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_wicket_wicket_request_6_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_wicket_wicket_util_6_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_java6_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_3_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_17.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_easymock_easymock_3_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_commands_3_6_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_contenttype_3_4_100.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_expressions_3_4_300.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_filesystem_1_3_100.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_jobs_3_5_100.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_resources_3_7_100.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_core_org_eclipse_core_runtime_3_7_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_equinox_common_3_3_0_v20070426.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_common_3_6_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_preferences_3_4_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_equinox_org_eclipse_equinox_registry_3_5_101.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_jdt_org_eclipse_jdt_core_3_10_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_osgi_org_eclipse_osgi_3_7_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_eclipse_text_org_eclipse_text_3_5_101.xml" />
+    <ignored path=".idea/libraries/Maven__org_freemarker_freemarker_2_3_24_incubating.xml" />
+    <ignored path=".idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_hippoecm_htmldiff_1_01_04.xml" />
+    <ignored path=".idea/libraries/Maven__org_imgscalr_imgscalr_lib_4_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_jdom_jdom2_2_0_5.xml" />
+    <ignored path=".idea/libraries/Maven__org_joda_joda_convert_1_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_json4s_json4s_ast_2_10_3_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_json4s_json4s_core_2_10_3_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_json4s_json4s_ext_2_10_3_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_json4s_json4s_jackson_2_10_3_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_json4s_json4s_native_2_10_3_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_json_json_20090211.xml" />
+    <ignored path=".idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_addon_channel_manager_frontend_3_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_addon_channel_manager_frontend_api_3_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_addon_channel_manager_repository_3_2_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_addon_hst_configuration_editor_frontend_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_addon_hst_configuration_editor_repository_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_ckeditor_optimized_4_5_5_h2.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_ckeditor_sources_4_5_5_h2.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms7_commons_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms7_utilities_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_api_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_automatic_export_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_automatic_export_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_brokenlinks_common_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_brokenlinks_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_brokenlinks_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_builtin_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_config_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_console_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_console_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_editor_common_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_editor_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_editor_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_engine_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_gallery_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_gallery_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_gotolink_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_jquery_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_perspectives_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_reporting_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_reporting_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_richtext_ckeditor_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_richtext_ckeditor_plugins_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_richtext_ckeditor_resources_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_richtext_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_richtext_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_scripts_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_translation_common_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_translation_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_translation_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_types_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_workflow_frontend_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_workflow_repository_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_cms_workflowmenu_3_2_9.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_components_hst_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_dashboard_war_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_banner_and_carousel_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_bean_writer_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_blog_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_content_blocks_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_document_wizard_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_events_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_faq_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_gallery_manager_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_google_maps_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_image_component_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_list_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_menu_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_news_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_poll_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_related_documents_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_rest_services_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_robots_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_sdk_api_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_sdk_implementation_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_search_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_selection_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_seo_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_simple_content_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_sitemap_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_tagging_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_taxonomy_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_plugin_video_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_essentials_skeleton_package_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_plugin_gallerypicker_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_plugin_resourcebundle_editor_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_plugin_selections_addon_cms_3_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_plugin_selections_addon_repository_3_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_plugin_selections_hst_client_3_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_api_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_builtin_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_config_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_connector_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_engine_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_jaxrs_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_modules_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_provider_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_resources_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_scripts_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_servlets_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_upgrade_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_utilities_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_repository_workflow_3_2_7.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_search_service_api_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_search_service_commons_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_search_service_jcr_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_services_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_services_contenttype_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_services_eventbus_2_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hippo_services_webfiles_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_client_modules_hst_cms_rest_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_client_modules_hst_page_composer_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_core_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_jaxrs_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_resourcebundle_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_resourcebundle_cnd_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_restapi_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_rewriter_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_security_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_components_hst_session_pool_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_hst_api_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_hst_client_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_hst_cms_restapi_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_hst_commons_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_hst_content_beans_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_hst_mock_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_toolkit_resources_addon_hst_addon_repository_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_hst_toolkit_resources_addon_toolkit_cnd_hst_addon_cnd_3_2_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_jcrdiff_client_1_01_05.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_cms7_jcrdiff_core_1_01_05.xml" />
+    <ignored path=".idea/libraries/Maven__org_onehippo_yui_yui_2_xx_sources_1_01_12.xml" />
+    <ignored path=".idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+    <ignored path=".idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_reflections_reflections_0_9_8.xml" />
+    <ignored path=".idea/libraries/Maven__org_scala_lang_scala_library_2_10_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_aop_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_beans_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_support_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_core_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_expression_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_web_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_springframework_spring_webmvc_4_1_4_RELEASE.xml" />
+    <ignored path=".idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_wicketstuff_wicket_extjs_0_25_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_wicketstuff_wicket_extjs_bundle_0_25_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_wicketstuff_wicketstuff_input_events_6_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__stax_stax_1_2_0.xml" />
+    <ignored path=".idea/libraries/Maven__xalan_serializer_2_7_1.xml" />
+    <ignored path=".idea/libraries/Maven__xalan_xalan_2_7_1.xml" />
+    <ignored path=".idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" />
+    <ignored path=".idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+    <ignored path=".idea/compiler.xml" />
+    <ignored path=".idea/modules.xml" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored mask="*.iml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/hippo/workspaces/git/spring-security-migrate-3-to-4" value="11680823088000" />
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="61" />
+    <option name="y" value="23" />
+    <option name="width" value="1379" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -36,12 +593,88 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="essentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="essentials" type="462c0819:PsiDirectoryNode" />
+              <item name="overlays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="essentials" type="462c0819:PsiDirectoryNode" />
+              <item name="overlays" type="462c0819:PsiDirectoryNode" />
+              <item name="org.onehippo.cms7.hippo-essentials-dashboard-2.2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/hippo/workspaces/ncsc-upgrade-to-11" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -91,6 +724,67 @@
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dda61e3f-d51e-42c8-bb39-307e4b6f5f1a" name="Default" comment="" />
+      <created>1527689910910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527689910910</updated>
+      <workItem from="1527689914592" duration="259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="259000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329602" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329602" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23891273" />
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
