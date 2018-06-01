@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda61e3f-d51e-42c8-bb39-307e4b6f5f1a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/typeandcategory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/src/main/java/org/example/beans/Typeandcategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/hippoecm-extension.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/hippoecm-extension.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelist-poc.cnd" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelist-poc.cnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/contentdocument.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/contentdocument.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/documenttype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/documenttype.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/newsdocument.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/newsdocument.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/system/flexibledropdown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/system/flexibledropdown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/administration/valuelists.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/administration/valuelists.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/dynamicvaluelistpoc/content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/dynamicvaluelistpoc/content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/dynamicvaluelistpoc/news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/dynamicvaluelistpoc/news.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/main/java/org/example/beans/ContentDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/main/java/org/example/beans/ContentDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/src/main/java/org/example/beans/NewsDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/main/java/org/example/beans/NewsDocument.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bootstrap/content/target/" />
@@ -520,23 +532,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlexibleDropdownPlugin.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlexibleDropdownPlugin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="211">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -564,8 +569,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" />
       </list>
     </option>
   </component>
@@ -585,7 +590,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="61" />
     <option name="y" value="23" />
     <option name="width" value="1379" />
@@ -633,6 +638,87 @@
             <path>
               <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="selection" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="selection" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -651,6 +737,32 @@
             <path>
               <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.jcr:jcr:2.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.jcr:jcr:2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jcr-2.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.jcr:jcr:2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jcr-2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.jcr:jcr:2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jcr-2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="jcr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
@@ -1007,7 +1119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527689910910</updated>
       <workItem from="1527689914592" duration="5346000" />
-      <workItem from="1527840734228" duration="5610000" />
+      <workItem from="1527840734228" duration="10435000" />
     </task>
     <task id="LOCAL-00001" summary="add news and simple content">
       <created>1527690262596</created>
@@ -1037,14 +1149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527845888262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add log">
+      <created>1527847174591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527847174591</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10956000" />
+    <option name="totallyTimeSpent" value="15781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="61" y="23" width="1379" height="877" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Messages" />
@@ -1056,16 +1175,16 @@
       <window_info anchor="bottom" id="JRebel Executor" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.43283582" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.43214756" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49928468" visible="true" weight="0.30099502" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49928468" weight="0.3083004" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.30472103" />
+      <window_info content_ui="combo" id="Project" order="3" weight="0.30441287" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.33582088" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.33333334" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -1079,34 +1198,61 @@
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="JRebel" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.30472103" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.30441287" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.43283582" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.329602" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.43214756" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.329602" />
       <window_info id="Designer" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49928468" visible="true" weight="0.41666666" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.4415423" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="JRebel Executor" order="6" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.33582088" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49928468" visible="true" weight="0.3083004" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.4415423" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.33465084" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="8" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1117,7 +1263,8 @@
     <MESSAGE value="add news and simple content" />
     <MESSAGE value="add dynamic dropdown to the compound" />
     <MESSAGE value="Create new type flexibledropdown which sets a valuelist source based on the type of the document that makes use of the dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new type flexibledropdown which sets a valuelist source based on the type of the document that makes use of the dropdown" />
+    <MESSAGE value="add log" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1127,15 +1274,41 @@
           <line>228</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>getPluginConfig()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getParent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parent</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parent.getComponent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>getPluginConfig().getPluginConfig(&quot;cluster.options&quot;).getStringArray(&quot;valuelist&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -1152,32 +1325,12 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getPluginConfig()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>this.getValueModel().getJcrPropertymodel().getProperty().getSession().get`</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>this.getValueModel().getJcrPropertymodel().getProperty().getSession()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>this.getValueModel().getJcrPropertymodel().getProperty()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>this.getValueModel().getJcrPropertymodel().getProperty().getNode()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>this.getValueModel().getJcrPropertymodel().getProperty().getPath()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1278,20 +1431,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/jcr/jcr/2.0/jcr-2.0-sources.jar!/javax/jcr/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="159">
+          <caret line="78" column="56" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

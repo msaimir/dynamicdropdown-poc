@@ -3,6 +3,7 @@ package org.example.selection.frontend.plugin;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.jcr.ItemNotFoundException;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
@@ -24,29 +25,42 @@ public class FlexibleDropdownPlugin extends DynamicDropdownPlugin {
     }
 
     @Override
-    protected String getValueListName(final Object objectValue) {
-        return super.getValueListName(objectValue);
-    }
-
-    @Override
     protected ValueList getValueList(final String configuredValueListName) {
+
         String valueListName = configuredValueListName;
-        IPluginConfig config = getPluginConfig().getPluginConfig("cluster.options");
-        String[] valuelist = config.getStringArray("valuelist");
-        String[] parentType = config.getStringArray("parentType");
-        if (valuelist.length == parentType.length) {
-            Map<String, String> parentTypeMap = new HashMap<>();
-            for(int i = 0; i<parentType.length; i++ ){
-                parentTypeMap.put(parentType[i], valuelist[i]);
+
+        Map<String, String> typeMap = new HashMap<>();
+        IPluginConfig clusterOptionsConfig = getPluginConfig().getPluginConfig("cluster.options");
+        if (clusterOptionsConfig != null) {
+            String[] valuelist = clusterOptionsConfig.getStringArray("valuelist");
+            String[] nodeType = clusterOptionsConfig.getStringArray("nodetype");
+
+            if (valuelist != null && nodeType != null && valuelist.length == nodeType.length) {
+                for (int i = 0; i < nodeType.length; i++) {
+                    typeMap.put(nodeType[i], valuelist[i]);
+                }
             }
+        }
+        if (!typeMap.isEmpty()) {
+
             try {
                 String propertyPath = this.getValueModel().getJcrPropertymodel().getProperty().getPath();
                 Session session = obtainSession();
                 String nodePath = propertyPath.substring(0, propertyPath.lastIndexOf('/'));
                 Node node = session.getNode(nodePath);
-                String parentNodeName = node.getParent().getPrimaryNodeType().getName();
-                if(parentTypeMap.containsKey(parentNodeName)){
-                    valueListName = parentTypeMap.get(parentNodeName);
+                while (node != null && !node.isNodeType("hippostd:folder") && !node.isNodeType("hippo:handle")) {
+
+                    String nodeName = node.getPrimaryNodeType().getName();
+                    if (typeMap.containsKey( node.getPrimaryNodeType().getName())) {
+                        valueListName = typeMap.get(nodeName);
+                        break;
+                    } else {
+                        try {
+                            node = node.getParent();
+                        } catch (ItemNotFoundException e) {
+                            break;
+                        }
+                    }
                 }
 
             } catch (RepositoryException e) {

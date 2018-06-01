@@ -142,13 +142,15 @@
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>frontend:pluginconfig</sv:value>
           </sv:property>
-          <sv:property sv:name="parentType" sv:type="String" sv:multiple="true">
+          <sv:property sv:name="nodetype" sv:type="String" sv:multiple="true">
             <sv:value>dynamicvaluelistpoc:contentdocument</sv:value>
             <sv:value>dynamicvaluelistpoc:newsdocument</sv:value>
+            <sv:value>dynamicvaluelistpoc:typeandcategory</sv:value>
           </sv:property>
           <sv:property sv:name="valuelist" sv:type="String" sv:multiple="true">
             <sv:value>/content/documents/administration/valuelists/simpledocumenttype</sv:value>
             <sv:value>/content/documents/administration/valuelists/newstype</sv:value>
+            <sv:value>/content/documents/administration/valuelists/typeandcategory</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>

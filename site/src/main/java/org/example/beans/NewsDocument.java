@@ -7,6 +7,7 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.example.beans.Documenttype;
+import org.example.beans.Typeandcategory;
 
 @HippoEssentialsGenerated(internalName = "dynamicvaluelistpoc:newsdocument")
 @Node(jcrType = "dynamicvaluelistpoc:newsdocument")
@@ -96,8 +97,9 @@ public class NewsDocument extends HippoDocument {
         return getProperty(SOURCE);
     }
 
-    @HippoEssentialsGenerated(internalName = "dynamicvaluelistpoc:type")
-    public Documenttype getType() {
-        return getBean("dynamicvaluelistpoc:type", Documenttype.class);
+    @HippoEssentialsGenerated(internalName = "dynamicvaluelistpoc:typeandcategory")
+    public Typeandcategory getTypeandcategory() {
+        return getBean("dynamicvaluelistpoc:typeandcategory",
+                Typeandcategory.class);
     }
 }

@@ -5,6 +5,7 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.example.beans.Documenttype;
+import org.example.beans.Typeandcategory;
 
 @HippoEssentialsGenerated(internalName = "dynamicvaluelistpoc:contentdocument")
 @Node(jcrType = "dynamicvaluelistpoc:contentdocument")
@@ -29,8 +30,9 @@ public class ContentDocument extends BaseDocument {
         return getProperty("dynamicvaluelistpoc:publicationdate");
     }
 
-    @HippoEssentialsGenerated(internalName = "dynamicvaluelistpoc:type")
-    public Documenttype getType() {
-        return getBean("dynamicvaluelistpoc:type", Documenttype.class);
+    @HippoEssentialsGenerated(internalName = "dynamicvaluelistpoc:typeandcategory")
+    public Typeandcategory getTypeandcategory() {
+        return getBean("dynamicvaluelistpoc:typeandcategory",
+                Typeandcategory.class);
     }
 }
