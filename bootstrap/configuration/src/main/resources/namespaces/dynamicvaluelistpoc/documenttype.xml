@@ -28,7 +28,7 @@
         <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>bca5fbc3-69ff-40de-9945-deeceaa799e6</sv:value>
+        <sv:value>81bd2768-8f2b-4a4b-a713-e1f543f84403</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -60,7 +60,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:type" sv:type="String">
-          <sv:value>DynamicDropdown</sv:value>
+          <sv:value>flexibledropdown</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -72,6 +72,9 @@
     <sv:node sv:name="hipposysedit:prototype">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>dynamicvaluelistpoc:documenttype</sv:value>
+      </sv:property>
+      <sv:property sv:name="dynamicvaluelistpoc:type" sv:type="String">
+        <sv:value/>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -116,6 +119,9 @@
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
           <sv:value>type</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
