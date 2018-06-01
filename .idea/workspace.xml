@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dda61e3f-d51e-42c8-bb39-307e4b6f5f1a" name="Default" comment="add dynamic dropdown to the compound">
-      <change afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/system/flexibledropdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/src/main/java/org/example/beans/Documenttype.java" afterDir="false" />
+    <list default="true" id="dda61e3f-d51e-42c8-bb39-307e4b6f5f1a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/hippoecm-extension.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/hippoecm-extension.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/contentdocument.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/contentdocument.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/documenttype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/documenttype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/newsdocument.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/configuration/src/main/resources/namespaces/dynamicvaluelistpoc/newsdocument.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/dynamicvaluelistpoc/content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/content/src/main/resources/content/documents/dynamicvaluelistpoc/content.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/main/java/org/example/beans/ContentDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/main/java/org/example/beans/ContentDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/main/java/org/example/beans/NewsDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/site/src/main/java/org/example/beans/NewsDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bootstrap/content/target/" />
@@ -527,7 +519,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="FlexibleDropdownPlugin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -551,6 +565,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -614,166 +629,6 @@
             <path>
               <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="namespaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="namespaces" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="selection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="selection" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="selection" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="essentials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="essentials" type="462c0819:PsiDirectoryNode" />
-              <item name="overlays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamicvaluelist-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="essentials" type="462c0819:PsiDirectoryNode" />
-              <item name="overlays" type="462c0819:PsiDirectoryNode" />
-              <item name="org.onehippo.cms7.hippo-essentials-dashboard-2.2.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamicvaluelist-poc" type="b2602c69:ProjectViewProjectNode" />
@@ -1152,7 +1007,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527689910910</updated>
       <workItem from="1527689914592" duration="5346000" />
-      <workItem from="1527840734228" duration="4385000" />
+      <workItem from="1527840734228" duration="5610000" />
     </task>
     <task id="LOCAL-00001" summary="add news and simple content">
       <created>1527690262596</created>
@@ -1175,11 +1030,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527690845927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create new type flexibledropdown which sets a valuelist source based on the type of the document that makes use of the dropdown">
+      <created>1527845888262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527845888262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9731000" />
+    <option name="totallyTimeSpent" value="10956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1194,9 +1056,9 @@
       <window_info anchor="bottom" id="JRebel Executor" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="10" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.43283582" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.43283582" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49928468" weight="0.30099502" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49928468" visible="true" weight="0.30099502" />
       <window_info id="Designer" order="5" />
       <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.30472103" />
       <window_info id="Web" order="0" side_tool="true" />
@@ -1254,7 +1116,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add news and simple content" />
     <MESSAGE value="add dynamic dropdown to the compound" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dynamic dropdown to the compound" />
+    <MESSAGE value="Create new type flexibledropdown which sets a valuelist source based on the type of the document that makes use of the dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new type flexibledropdown which sets a valuelist source based on the type of the document that makes use of the dropdown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,12 +1126,6 @@
           <url>jar://$MAVEN_REPOSITORY$/org/onehippo/cms7/hippo-plugin-selections-addon-cms/3.2.1/hippo-plugin-selections-addon-cms-3.2.1-sources.jar!/org/onehippo/forge/selection/frontend/plugin/DynamicDropdownPlugin.java</url>
           <line>228</line>
           <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -1423,11 +1280,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/src/main/java/org/example/selection/frontend/plugin/FlexibleDropdownPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="493">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>

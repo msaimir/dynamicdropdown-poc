@@ -10,3 +10,4 @@ bin/
 dependencytree.txt
 target/
 */overlays/
+/.idea/workspace.xml

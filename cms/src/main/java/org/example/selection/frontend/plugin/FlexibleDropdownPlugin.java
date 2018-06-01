@@ -50,7 +50,7 @@ public class FlexibleDropdownPlugin extends DynamicDropdownPlugin {
                 }
 
             } catch (RepositoryException e) {
-                log.error("");
+                log.error("Error accessing the repository", e);
             }
         }
 
